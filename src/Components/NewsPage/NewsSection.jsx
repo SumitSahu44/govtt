@@ -11,6 +11,7 @@ const NewsPage = () => {
   useEffect(() => {
     const fetchRSSFeed = async () => {
       try {
+        // api request 
         const response = await axios.get(
           `https://api.rss2json.com/v1/api.json?rss_url=https://economictimes.indiatimes.com/news/economy/rssfeeds/1373380680.cms`
         );
