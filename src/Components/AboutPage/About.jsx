@@ -36,6 +36,7 @@ const AboutUs = () => {
   ];
 
   return (
+    // about us section 
     <div
       id="about-us-section"
       className="min-h-[800px] bg-gradient-to-b from-white to-orange-50 py-16"
