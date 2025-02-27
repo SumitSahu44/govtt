@@ -10,7 +10,7 @@ import SendSection from './Send';
 const ContactPage = () => {
   const navigate = useNavigate();
 
-  // styles 
+ 
   const pageStyle = {
     display: 'flex',
     flexDirection: 'column',
