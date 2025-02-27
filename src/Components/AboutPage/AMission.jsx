@@ -57,6 +57,7 @@ const MissionVision = () => {
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
           </motion.div>
+          {/* our mission  */}
           <div className="lg:w-1/2 space-y-6">
             <div className="flex items-center space-x-4">
               <Target className="text-orange-500" size={36} />
