@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import ContactSection from './GetnTouch';
 import SendSection from './Send';
 
+// contact page 
 const ContactPage = () => {
   const navigate = useNavigate();
 
