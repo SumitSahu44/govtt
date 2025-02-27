@@ -8,6 +8,7 @@ const BoardMembers = () => {
   const [scrollLeft, setScrollLeft] = useState(0);
   const carouselRef = useRef(null);
 
+  // client data 
   const boardMembers = [
     {
       name: "Dr. Rajesh Kumar",
