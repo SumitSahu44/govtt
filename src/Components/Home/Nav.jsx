@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaMoon, FaSun } from "react-icons/fa";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/ilc-logo.png";
 import azadi from "../../assets/75azadi.png";
-import excellence from "../../assets/30.png";
 
 const Navbar = ({ currentImage }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,13 +28,13 @@ const Navbar = ({ currentImage }) => {
 
   return (
     <header
-      className="fixed top-0 w-full z-50 bg-opacity-80 backdrop-blur-lg shadow-md border-b border-gray-300 py-[8px] dark:bg-gray-900 dark:border-gray-700"
+      className="fixed top-0 w-full z-50 bg-opacity-80 backdrop-blur-lg shadow-md py-2 border-b border-gray-300 h-[80px] dark:bg-gray-900 dark:border-gray-700"
       style={{ backgroundImage: `url(${currentImage})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <nav className="container mx-auto py-[8px] px-[20px] flex items-center justify-between max-w-screen-xl">
+      <nav className="container mx-auto  h-full px-[20px] flex items-center justify-between max-w-screen-xl">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" width={50} height={12} className="ml-2" />
+          <img src={logo} alt="Logo" width={50} height={12} className="ml-2 h-[75px] w-[75px]" />
         </div>
 
         {/* Desktop Menu */}
@@ -66,7 +65,6 @@ const Navbar = ({ currentImage }) => {
 
         <div className="flex space-x-1">
           <img src={azadi} alt="Azadi Logo" className="h-8" />
-          {/* <img src={excellence} alt="Excellence Logo" className="h-8" /> */}
         </div>
 
         
