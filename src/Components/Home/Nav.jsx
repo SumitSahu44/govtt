@@ -12,17 +12,6 @@ const Navbar = ({ currentImage }) => {
     localStorage.getItem("theme") === "dark"
   );
 
-  // Toggle dark mode
-  useEffect(() => {
-    if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [isDarkMode]);
-
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
@@ -80,15 +69,7 @@ const Navbar = ({ currentImage }) => {
           <img src={excellence} alt="Excellence Logo" className="h-8" />
         </div>
 
-        {/* Dark Mode Toggle Button */}
-        <button
-          onClick={() => setIsDarkMode(!isDarkMode)}
-          className="p-2 rounded-md bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
-          aria-label="Toggle Dark Mode"
-        >
-          {isDarkMode ? <FaSun size={18} /> : <FaMoon size={18} />}
-        </button>
-
+        
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
