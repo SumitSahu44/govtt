@@ -66,7 +66,7 @@ const Navbar = ({ currentImage }) => {
 
         <div className="flex space-x-1">
           <img src={azadi} alt="Azadi Logo" className="h-8" />
-          <img src={excellence} alt="Excellence Logo" className="h-8" />
+          {/* <img src={excellence} alt="Excellence Logo" className="h-8" /> */}
         </div>
 
         
