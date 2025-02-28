@@ -32,7 +32,7 @@ const Navbar = ({ currentImage }) => {
       className="fixed top-0 w-full z-50 bg-opacity-80 backdrop-blur-lg shadow-md border-b border-gray-300 py-[8px] dark:bg-gray-900 dark:border-gray-700"
       style={{ backgroundImage: `url(${currentImage})`, backgroundSize: "cover", backgroundPosition: "center" }}
     >
-      <nav className="container mx-auto py-[8px] flex items-center justify-between max-w-screen-xl">
+      <nav className="container mx-auto py-[8px] px-[20px] flex items-center justify-between max-w-screen-xl">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <img src={logo} alt="Logo" width={50} height={12} className="ml-2" />
