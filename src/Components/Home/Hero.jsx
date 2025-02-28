@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
-import pic2 from "../../assets/drone-1.jpg";
-import pic5 from "../../assets/drone-2.jpg";
-import pic7 from "../../assets/drone-over-farm.png";
-import plane from "../../assets/seaplane.jpg";
+import pic2 from "../../assets/hero-bg-2.jpeg";
+import pic5 from "../../assets/hero-bg-3.jpeg";
+import pic7 from "../../assets/hero-bg-4.jpeg";
+import plane from "../../assets/hero-bg-5.jpeg";
 import bannerImage from "../../assets/sahkaar_se.jpeg";
 
 const Hero = () => {
