@@ -82,7 +82,7 @@ export function Story() {
             </div>
 
             <motion.p
-              className="pl-8 text-lg text-gray-700 leading-relaxed font-baloo"
+              className="pl-8 text-lg text-justify text-gray-700 leading-relaxed font-baloo"
               variants={fadeIn}
             >
               Indian Labour Cooperative Society Ltd. is an organization dedicated to the empowerment and welfare

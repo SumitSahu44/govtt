@@ -66,10 +66,10 @@ const LatestNews = () => {
 
             {/* Content Section */}
             <div className="p-6">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-3">
+              <h3 className="text-lg  md:text-xl font-semibold text-gray-800 mb-3">
                 {news.title}
               </h3>
-              <p className="text-gray-600 text-sm md:text-base mb-4 leading-relaxed">
+              <p className="text-gray-600 text-justify text-sm md:text-base mb-4 leading-relaxed">
                 {news.description}
               </p>
               <a target="_blank"

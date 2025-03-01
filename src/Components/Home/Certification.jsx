@@ -49,10 +49,10 @@ export function Certification() {
 
           {/* Text Section with Enhanced Typography and Spacing */}
           <motion.div className="space-y-8" variants={fadeInRight}>
-            <h2 className="text-4xl font-semibold text-gray-900 tracking-tight leading-tight">
+            <h2 className="text-4xl font-semibold text-justify text-gray-900 tracking-tight leading-tight">
               ZED Certification for MSMEs: A Step Towards Excellence
             </h2>
-            <p className="text-lg text-gray-600 md:text-xl">
+            <p className="text-lg text-justify text-gray-600 md:text-xl">
               The ZED Certification, in collaboration with ILCS, MSME, and QCI, is designed to help MSMEs excel in quality and sustainability practices. Enroll today to adopt world-class standards and gain the recognition you deserve.
             </p>
 
