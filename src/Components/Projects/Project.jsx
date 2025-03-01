@@ -58,7 +58,7 @@ const Projects = () => {
 
           {/* Description with improved typography */}
           <motion.p 
-            className="text-gray-700 text-lg leading-relaxed"
+            className="text-gray-700 text-lg leading-relaxed text-justify"
             variants={itemVariants}
           >
             Under the able guidance of our Board, the Indian Labour Cooperative Society (ILCS), established in 1994, 

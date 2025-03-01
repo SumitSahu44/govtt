@@ -45,13 +45,13 @@ const GoalSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <p className="text-base sm:text-lg md:text-xl leading-relaxed font-poppins">
+            <p className="text-base sm:text-lg md:text-xl  text-justify leading-relaxed font-poppins">
               <span className="font-bold text-orange-500">The vision</span> of the Indian
               Labour Cooperative Society Ltd. (ILCS) is to empower and uplift the
               labor community across India through sustainable and equitable
               development.
             </p>
-            <p className="text-base sm:text-lg md:text-xl leading-relaxed font-poppins">
+            <p className="text-base sm:text-lg md:text-xl text-justify leading-relaxed font-poppins">
               Our aim is to foster a cooperative environment where laborers can achieve 
               their full potential, secure their rights, and improve their socio-economic status.
             </p>
