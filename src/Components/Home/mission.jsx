@@ -58,7 +58,7 @@ export function MissionVision() {
             <h3 className="text-4xl sm:text-5xl lg:text-6xl font-bold mt-8 sm:mt-6">
               Our Mission
             </h3>
-            <p className="text-lg sm:text-xl lg:text-2xl font-semibold mt-4 sm:mt-6">
+            <p className="text-lg sm:text-xl  text-justify lg:text-2xl font-semibold mt-4 sm:mt-6">
               The Indian Labour Cooperative Society Ltd. aims to provide a
               collective voice to workers, ensuring they receive fair treatment
               and opportunities for growth. We believe in the power of unity
