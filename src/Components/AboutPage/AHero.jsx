@@ -51,7 +51,7 @@ const AHero = () => {
         }`}
         style={{ maxWidth: "90%", width: "100%" }}
       >
-        <p className="text-white text-base sm:text-xl md:text-2xl lg:text-3xl font-bold leading-relaxed tracking-wide mb-6 shadow-text">
+        <p className="text-white text-base sm:text-xl text-justify md:text-2xl lg:text-3xl font-bold leading-relaxed tracking-wide mb-6 shadow-text">
           "Delivering excellence through skilled manpower and innovative technology, 
           contributing to India's growth since 1994. Our commitment to quality and 
           service has made us a trusted partner in nation-building."

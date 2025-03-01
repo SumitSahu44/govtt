@@ -28,23 +28,23 @@ export function Certification() {
 
       <div className="max-w-screen-xl mx-auto relative z-10">
         <motion.div
-          className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+          className="grid grid-cols-1 justify-center items-center lg:grid-cols-2 gap-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* Image Section with Enhanced Styling */}
           <motion.div
-            className="w-full rounded-lg overflow-hidden relative shadow-lg hover:scale-105 transition-transform duration-300"
+            // className="w-full rounded-lg overflow-hidden relative  hover:scale-105 transition-transform duration-300"
             variants={fadeInLeft}
           >
             <img
               src={zed}
               alt="ZED MSME Certification"
-              className="w-full h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-[80%] h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
             />
             {/* Image Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black opacity-30 rounded-lg" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black opacity-30 rounded-lg" /> */}
           </motion.div>
 
           {/* Text Section with Enhanced Typography and Spacing */}

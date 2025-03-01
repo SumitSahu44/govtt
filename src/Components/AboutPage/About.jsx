@@ -97,7 +97,7 @@ const AboutUs = () => {
           <div className="p-8">
             {activeTab === 'history' && (
               <div className="space-y-6">
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 text-justify leading-relaxed">
                   Established in 1994, Indian Labour Cooperative Society Ltd. (ILCS) operates under the Ministry of Cooperation, Government of India. With three decades of dedicated service, we have consistently provided top-tier manpower solutions for Government, Semi-Government, and Private sector projects.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
@@ -108,7 +108,7 @@ const AboutUs = () => {
 
             {activeTab === 'services' && (
               <div className="space-y-6">
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700   text-justify leading-relaxed">
                   ILCS specializes in Smart Agriculture Drone Solutions, revolutionizing farming efficiency by enabling precise and automated spraying of fertilizers, pesticides, and insecticides. Our innovations help reduce labor efforts, improve crop yields, and minimize health risks.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
@@ -131,10 +131,10 @@ const AboutUs = () => {
 
             {activeTab === 'achievements' && (
               <div className="space-y-6">
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700  text-justify leading-relaxed">
                   Between 2002 and 2008, ILCS played a crucial role in supporting Indian Potash Limited (IPL) by managing its rake handling and warehousing in the challenging terrain of Jammu & Kashmir. More recently, we have empowered IPL with cutting-edge agricultural drones and trained their personnel as DGCA-certified drone pilots.
                 </p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700  text-justify leading-relaxed">
                   With over 50 Type Certified Agriculture Spray Drones and RPC-certified pilots deployed nationwide, we are actively fostering employment and driving technological advancements in the agricultural sector. ILCS is proud to be MSME registered and ISO 9001:2015 certified.
                 </p>
               </div>
