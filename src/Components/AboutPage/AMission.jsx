@@ -63,7 +63,7 @@ const MissionVision = () => {
               <Target className="text-orange-500" size={36} />
               <h3 className="text-3xl sm:text-4xl font-bold text-gray-900">Our Mission</h3>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg  text-justify text-gray-700 leading-relaxed">
             Our mission is to empower the labor force by providing quality-based services, 
             skill development, and sustainable employment across various sectors. Through modern 
             technology, innovative solutions, and cooperative values, we aim to enhance workforce safety, 
@@ -98,7 +98,7 @@ const MissionVision = () => {
               <Eye className="text-orange-500" size={36} />
               <h3 className="text-3xl sm:text-4xl font-bold text-gray-900">Our Vision</h3>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700  text-justify leading-relaxed">
               Our vision is to uplift and strengthen India’s labor community by fostering sustainable 
               employment, technological advancements, and industrial collaborations. We strive to create 
               a self-reliant and inclusive workforce, driving socio-economic progress in alignment with 
