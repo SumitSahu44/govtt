@@ -11,7 +11,7 @@ import SahkarBanner from "./Components/Home/Banner";
 import ContactPage from "./Components/ContactPage/Contact";
 import AboutPage from "./Components/AboutPage/AboutContent";
 import ProjectsPage from "./Components/Projects/Page";
-import LogoSection from "./Components/Home/Logo";
+import LogoSection from "./Components/Home/LogoGrid";
 import NewsSection from "./Components/NewsPage/NewsSection";
 import "@fontsource/baloo-2";
 function App() {
