@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import projectImage from "../../assets/ph.jpg";
+import projectImage from "../../assets/our-partner.avif";
 import { ArrowRight, BookOpen, Info } from "lucide-react"; // Import icons
 
 const Projects = () => {
