@@ -27,7 +27,7 @@ const NewsPage = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
-      <br /><br /><br /><br /><br />
+      <br /><br /><br />
       <div className="bg-yellow-100 py-12 text-center">
         <h1 className="text-4xl font-bold text-gray-800">Latest News</h1>
         <p className="text-lg text-gray-600 mt-4">Stay updated with the latest developments in the drone industry.</p>

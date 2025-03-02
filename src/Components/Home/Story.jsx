@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import story1 from "../../assets/farmer-handshake.jpg";
-import story2 from "../../assets/f1.jpg";
+import story2 from "../../assets/story2-img.avif";
 import arrow from "../../assets/arrow.png";
 
 export function Story() {
@@ -84,6 +84,7 @@ export function Story() {
             <motion.p
               className="pl-8 text-lg text-justify text-gray-700 leading-relaxed font-baloo"
               variants={fadeIn}
+              
             >
               Indian Labour Cooperative Society Ltd. is an organization dedicated to the empowerment and welfare
               of workforce across India. Established in 1994 with the vision of fostering economic and social

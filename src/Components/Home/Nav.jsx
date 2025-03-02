@@ -64,7 +64,7 @@ const Navbar = ({ currentImage }) => {
         </ul>
 
         <div className="flex space-x-1">
-          <img src={azadi} alt="Azadi Logo" className="h-8" />
+          <img src={azadi} alt="Azadi Logo" className="h-[3rem]" />
         </div>
 
         

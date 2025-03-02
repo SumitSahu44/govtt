@@ -28,7 +28,7 @@ export function Certification() {
 
       <div className="max-w-screen-xl mx-auto relative z-10">
         <motion.div
-          className="grid grid-cols-1 justify-center items-center lg:grid-cols-2 gap-16"
+          className="grid  grid-cols-1 justify-center items-center lg:grid-cols-2 gap-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
@@ -37,19 +37,17 @@ export function Certification() {
           <motion.div
             // className="w-full rounded-lg overflow-hidden relative  hover:scale-105 transition-transform duration-300"
             variants={fadeInLeft}
-          >
+              >
             <img
               src={zed}
               alt="ZED MSME Certification"
-              className="w-[60%] sm:w-[80%] m-auto h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-[60%] sm:w-[40%] lg:w-[70%] m-auto h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
             />
-            {/* Image Overlay */}
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-black opacity-30 rounded-lg" /> */}
-          </motion.div>
+             </motion.div>
 
           {/* Text Section with Enhanced Typography and Spacing */}
           <motion.div className="space-y-8" variants={fadeInRight}>
-            <h2 className="text-4xl font-semibold text-justify text-gray-900 tracking-tight leading-tight">
+            <h2 className="text-4xl font-semibold text-justify  text-gray-900 tracking-tight leading-tight" >
               ZED Certification for MSMEs: A Step Towards Excellence
             </h2>
             <p className="text-lg text-justify text-gray-600 md:text-xl">
@@ -57,12 +55,12 @@ export function Certification() {
             </p>
 
             <motion.div
-              className="flex justify-center mt-8"
+              className="mt-8"
               variants={fadeInRight}
             >
               <button
                 onClick={handleEnrollClick}
-                className="px-12 py-5 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-lg shadow-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl focus:outline-none"
+                className=" w-[100%] px-12 py-5 bg-gradient-to-r from-green-600 to-green-700 text-white font-semibold rounded-lg shadow-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl focus:outline-none"
               >
                 Enroll Now
               </button>
