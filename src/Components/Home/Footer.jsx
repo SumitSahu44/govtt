@@ -1,40 +1,71 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram,  } from "react-icons/fa";
+import { IoCall, IoLocation } from "react-icons/io5";
 
+import { MdEmail } from "react-icons/md";
+
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-[#1A202C] text-white py-10 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Info Section */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">INFO</h3>
+          <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2 text-gray-300">
-            <li>Formats</li>
-            <li>Compression</li>
-            <li>Pricing</li>
-            <li>FAQ</li>
-            <li>Status</li>
+            <li>
+               <NavLink to={'/'} >
+                <span>Home</span>
+              </NavLink>
+            </li>
+
+            <li>
+               <NavLink to={'/about'} >
+                <span>About</span>
+              </NavLink>
+            </li>
+
+            <li>
+               <NavLink to={'/partners'} >
+                <span>Partner</span>
+              </NavLink>
+            </li>
+
+            <li>
+               <NavLink to={'/service'} >
+                <span>Service</span>
+              </NavLink>
+            </li>
+
+            <li>
+               <NavLink to={'/news'} >
+                <span>News</span>
+              </NavLink>
+            </li>
+
+          
+
+      
           </ul>
         </div>
 
         {/* Resources Section */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">RESOURCES</h3>
+          <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <ul className="space-y-2 text-gray-300">
-            <li>Developer API</li>
-            <li>Tools</li>
-            <li>Blog</li>
+            <li><IoCall className="inline text-xl mr-1"/>011-47052007</li>
+            <li><MdEmail  className="inline text-xl mr-1"/>support@ilcs.oc.in</li>
+          
           </ul>
         </div>
 
         {/* Company Section */}
         <div>
-          <h3 className="text-lg font-semibold mb-3">COMPANY</h3>
+          <h3 className="text-lg font-semibold mb-3">Address</h3>
           <ul className="space-y-2 text-gray-300">
-            <li>About Us</li>
-            <li>Sustainability</li>
-            <li>Terms of Service</li>
-            <li>Privacy</li>
+            <li><IoLocation  className="inline text-xl mr-1"/>14-D, Atma Ram House - 110001  <br />
+            (India)</li>
+          
           </ul>
         </div>
 

@@ -86,7 +86,7 @@ const Navbar = ({ currentImage }) => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-12 left-0 right-0 bg-white dark:bg-gray-800 shadow-md px-4 py-2 transform transition-all duration-300 ${
+        className={`fixed top-[80px] left-0 right-0 bg-white dark:bg-gray-800 shadow-md px-4 py-2 transform transition-all duration-300 ${
           isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
