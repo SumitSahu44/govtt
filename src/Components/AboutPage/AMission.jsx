@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Target, Eye } from "lucide-react"
-import missionImage from "../../assets/mission.jpeg"; 
-import visionImage from "../../assets/vision.jpeg";   
+import missionImage from "../../assets/mission.jpg"; 
+import visionImage from "../../assets/vission.webp";   
 
 const MissionVision = () => {
   const [missionRef, missionInView] = useInView({ threshold: 0.3, triggerOnce: true })
