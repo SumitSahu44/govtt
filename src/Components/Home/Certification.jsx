@@ -41,7 +41,7 @@ export function Certification() {
             <img
               src={zed}
               alt="ZED MSME Certification"
-              className="w-[80%] h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
+              className="w-[60%] sm:w-[80%] m-auto h-auto object-cover rounded-lg transform hover:scale-105 transition-transform duration-300"
             />
             {/* Image Overlay */}
             {/* <div className="absolute inset-0 bg-gradient-to-t from-black opacity-30 rounded-lg" /> */}
