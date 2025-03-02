@@ -63,11 +63,11 @@ const Hero = () => {
               className="flex-none w-full h-full"
               style={{ scrollSnapAlign: "start" }}
             >
-              <div className="relative w-full h-ful">
+              <div className="relative w-full h-full">
                 <img
                   src={image}
                   alt={`Slide ${index}`}
-                  className="w-full h-full sm:rounded-lg"
+                  className="w-full h-full sm:object-cover sm:rounded-lg"
                 />
               </div>
             </motion.div>
