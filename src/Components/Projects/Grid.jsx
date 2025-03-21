@@ -13,6 +13,7 @@ import partner10 from "../../assets/p10.jpg";
 import partner11 from "../../assets/iffco.png";
 import partner12 from "../../assets/Kribhco.png";
 import partner13 from "../../assets/NFI.png";
+import partner14 from "../../assets/RCF.png";
 
 const partners = [
   {
@@ -77,9 +78,15 @@ const partners = [
     name: "Kribhco"
   },
   {
-    id: 12,
+    id: 13,
     logo: partner13,
     name: "NFI"
+  }
+  ,
+  {
+    id: 14,
+    logo: partner14,
+    name: "RCF"
   }
 ];
 
