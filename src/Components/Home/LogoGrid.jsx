@@ -9,9 +9,10 @@ import qci from "../../assets/Qci.png";
 import sr from "../../assets/m.webp";
 import iffco from "../../assets/iffco.png";
 import kribhco from "../../assets/kribhco.png";
-import NFI from "../../assets/NFI.png";
+import NFL from "../../assets/NFL.png";
 import './LogoGrid.css'
-const logos = [bharat, mca, iffco, msme, kribhco, NFI, zed, qci, g20, exp, sr];
+
+const logos = [bharat, mca, iffco, msme, kribhco, NFL, zed, qci, g20, exp, sr];
 
 const LogoGrid = () => {
   return (

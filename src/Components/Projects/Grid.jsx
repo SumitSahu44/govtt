@@ -12,9 +12,11 @@ import partner9 from "../../assets/p9.jpg";
 import partner10 from "../../assets/p10.jpg";
 import partner11 from "../../assets/iffco.png";
 import partner12 from "../../assets/kribhco.png";
-import partner13 from "../../assets/NFI.png";
+import partner13 from "../../assets/NFL.png";
 import partner14 from "../../assets/RCF.png";
 import partner15 from "../../assets/NCUI.jpg";
+import partner16 from "../../assets/nafed-logo.png";
+import partner17 from "../../assets/agrified.png";
 
 const partners = [
   {
@@ -92,6 +94,16 @@ const partners = [
     id: 15,
     logo: partner15,
     name: "NCUI"
+  },
+  {
+    id: 16,
+    logo: partner16,
+    name: "NAFED"
+  },
+  {
+    id: 17,
+    logo: partner17,
+    name: "Agrified"
   }
 ];
 
