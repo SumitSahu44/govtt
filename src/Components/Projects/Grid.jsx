@@ -10,6 +10,11 @@ import partner7 from "../../assets/p7.jpg";
 import partner8 from "../../assets/p8.jpg";
 import partner9 from "../../assets/p9.jpg";
 import partner10 from "../../assets/p10.jpg";
+import partner11 from "../../assets/iffco.png";
+import partner12 from "../../assets/Kribhco.png";
+import partner13 from "../../assets/NFI.png";
+import partner14 from "../../assets/RCF.png";
+import partner15 from "../../assets/NCUI.jpg";
 
 const partners = [
   {
@@ -61,6 +66,33 @@ const partners = [
     id: 10,
     logo: partner10,
     name: "EUROPE DRONE PORT"
+  },
+
+  {
+    id: 11,
+    logo: partner11,
+    name: "IFFCO"
+  },
+  {
+    id: 12,
+    logo: partner12,
+    name: "Kribhco"
+  },
+  {
+    id: 13,
+    logo: partner13,
+    name: "NFI"
+  }
+  ,
+  {
+    id: 14,
+    logo: partner14,
+    name: "RCF"
+  },
+  {
+    id: 15,
+    logo: partner15,
+    name: "NCUI"
   }
 ];
 
