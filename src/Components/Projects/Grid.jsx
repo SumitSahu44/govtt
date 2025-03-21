@@ -82,8 +82,7 @@ const partners = [
     id: 13,
     logo: partner13,
     name: "NFI"
-  }
-  ,
+  },
   {
     id: 14,
     logo: partner14,
