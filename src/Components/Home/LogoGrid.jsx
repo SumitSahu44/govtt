@@ -11,6 +11,7 @@ import iffco from "../../assets/iffco.png";
 import kribhco from "../../assets/kribhco.png";
 import NFL from "../../assets/NFL.png";
 import './LogoGrid.css'
+
 const logos = [bharat, mca, iffco, msme, kribhco, NFL, zed, qci, g20, exp, sr];
 
 const LogoGrid = () => {
