@@ -189,7 +189,7 @@ const BoardMembers = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-            Our Director & Chariman Members
+          Board Members
           </h2>
           <div className="w-24 h-1 bg-orange-500 mx-auto mt-4"></div>
         </div>
