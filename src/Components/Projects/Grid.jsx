@@ -11,7 +11,7 @@ import partner8 from "../../assets/p8.jpg";
 import partner9 from "../../assets/p9.jpg";
 import partner10 from "../../assets/p10.jpg";
 import partner11 from "../../assets/iffco.png";
-import partner12 from "../../assets/Kribhco.png";
+import partner12 from "../../assets/kribhco.png";
 import partner13 from "../../assets/NFI.png";
 import partner14 from "../../assets/RCF.png";
 import partner15 from "../../assets/NCUI.jpg";
