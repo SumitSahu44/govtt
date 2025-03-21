@@ -117,71 +117,64 @@ const BoardMembers = () => {
     };
   }, []);
 
-  // Auto scroll effect
-  useEffect(() => {
-    const carousel = carouselRef.current;
-    if (!carousel) return;
 
-    let scrollInterval;
-    const startAutoScroll = () => {
-      scrollInterval = setInterval(() => {
-        if (!isDragging) {
-          carousel.scrollLeft += 1;
-          if (carousel.scrollLeft >= (carousel.scrollWidth - carousel.clientWidth) / 2) {
-            carousel.scrollLeft = 0;
-          }
+  
+// Faster Auto-Scroll
+useEffect(() => {
+  const carousel = carouselRef.current;
+  if (!carousel) return;
+
+  let scrollInterval;
+  const startAutoScroll = () => {
+    scrollInterval = setInterval(() => {
+      if (!isDragging) {
+        carousel.scrollLeft += 5; // Increased speed
+        if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth) {
+          carousel.scrollLeft = 0;
         }
-      }, 30);
-    };
-
-    startAutoScroll();
-
-    return () => {
-      if (scrollInterval) {
-        clearInterval(scrollInterval);
       }
-    };
-  }, [isDragging]);
-
-  // Mouse drag handlers
-  const handleMouseDown = (e) => {
-    setIsDragging(true);
-    setStartX(e.pageX - carouselRef.current.offsetLeft);
-    setScrollLeft(carouselRef.current.scrollLeft);
+    }, 5); // Reduced interval for ultra-fast scrolling
   };
 
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    e.preventDefault();
-    const x = e.pageX - carouselRef.current.offsetLeft;
-    const distance = (x - startX) * 2;
-    carouselRef.current.scrollLeft = scrollLeft - distance;
-  };
+  startAutoScroll();
 
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
+  return () => clearInterval(scrollInterval);
+}, [isDragging]);
 
-  const handleNavigation = (direction) => {
-    const carousel = carouselRef.current;
-    if (!carousel) return;
+// Mouse drag handlers
+const handleMouseDown = (e) => {
+  setIsDragging(true);
+  setStartX(e.pageX - carouselRef.current.offsetLeft);
+  setScrollLeft(carouselRef.current.scrollLeft);
+};
 
-    const cardWidth = 350; // Width of each card
-    const scrollDistance = cardWidth + 32; // Card width + gap (gap-8 = 32px)
-    const currentScroll = carousel.scrollLeft;
-    
-    if (direction === 'left') {
-      carousel.scrollTo({
-        left: currentScroll - scrollDistance,
-        behavior: 'smooth'
-      });
-    } else {
-      carousel.scrollTo({
-        left: currentScroll + scrollDistance,
-        behavior: 'smooth'
-      });
-    }
-  };
+const handleMouseMove = (e) => {
+  if (!isDragging) return;
+  e.preventDefault();
+  const x = e.pageX - carouselRef.current.offsetLeft;
+  const distance = (x - startX) * 3; // More responsive dragging
+  carouselRef.current.scrollLeft = scrollLeft - distance;
+};
+
+const handleMouseUp = () => {
+  setIsDragging(false);
+};
+
+// Ultra-fast Navigation function
+const handleNavigation = (direction) => {
+  const carousel = carouselRef.current;
+  if (!carousel) return;
+
+  const cardWidth = 350; // Width of each card
+  const scrollDistance = (cardWidth + 32) * 3; // 3X scroll speed
+
+  // Instant jump for faster navigation
+  carousel.scrollTo({
+    left: direction === "left" ? carousel.scrollLeft - scrollDistance : carousel.scrollLeft + scrollDistance,
+    behavior: "auto", // Instantaneous scrolling
+  });
+};
+
 
   return (
     <div id="board-section" className="bg-gradient-to-b from-white to-orange-50 py-16 px-4 sm:px-6 lg:px-8">
@@ -189,7 +182,7 @@ const BoardMembers = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-            Our Director & Chariman Members
+          Board Members
           </h2>
           <div className="w-24 h-1 bg-orange-500 mx-auto mt-4"></div>
         </div>
