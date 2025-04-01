@@ -86,7 +86,7 @@ const ContactSection = () => {
         >
           <i className="fas fa-envelope text-orange-500 text-2xl md:text-3xl hover:text-orange-400 transition-all duration-300 ease-in-out transform hover:scale-110"></i>
           <p className="text-gray-800 font-semibold text-sm sm:text-base md:text-lg hover:text-orange-500 transition-all duration-300 ease-in-out transform hover:scale-105">
-            support@ilcs.oc.in
+          support@ilcs.co.in
           </p>
         </div>
 
