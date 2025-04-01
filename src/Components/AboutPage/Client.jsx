@@ -133,7 +133,7 @@ useEffect(() => {
           carousel.scrollLeft = 0;
         }
       }
-    },0.5); // Reduced interval for ultra-fast scrolling
+    },1); // Reduced interval for ultra-fast scrolling
   };
 
   startAutoScroll();
