@@ -128,12 +128,12 @@ useEffect(() => {
   const startAutoScroll = () => {
     scrollInterval = setInterval(() => {
       if (!isDragging) {
-        carousel.scrollLeft += 5; // Increased speed
+        carousel.scrollLeft += 10; // Increased speed
         if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth) {
           carousel.scrollLeft = 0;
         }
       }
-    }, 5); // Reduced interval for ultra-fast scrolling
+    },0.5); // Reduced interval for ultra-fast scrolling
   };
 
   startAutoScroll();
