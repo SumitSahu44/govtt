@@ -54,7 +54,7 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <ul className="space-y-2 text-gray-300">
             <li><IoCall className="inline text-xl mr-1"/>011-47052007</li>
-            <li><MdEmail  className="inline text-xl mr-1"/>support@ilcs.oc.in</li>
+            <li><MdEmail  className="inline text-xl mr-1"/>support@ilcs.co.in</li>
           
           </ul>
         </div>
