@@ -128,12 +128,12 @@ useEffect(() => {
   const startAutoScroll = () => {
     scrollInterval = setInterval(() => {
       if (!isDragging) {
-        carousel.scrollLeft += 5; // Increased speed
+        carousel.scrollLeft += 10; // Increased speed
         if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth) {
           carousel.scrollLeft = 0;
         }
       }
-    }, 5); // Reduced interval for ultra-fast scrolling
+    },0.5); // Reduced interval for ultra-fast scrolling
   };
 
   startAutoScroll();
@@ -230,7 +230,7 @@ const handleNavigation = (direction) => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                   <div className="absolute bottom-4 left-4 right-4 text-white">
